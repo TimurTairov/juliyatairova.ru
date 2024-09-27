@@ -2,29 +2,49 @@ import foto from '../images/myfoto.jpg'
 import Image from 'next/image'
 import { TbRosetteDiscountCheckFilled } from 'react-icons/tb'
 import { BiSolidDonateHeart } from 'react-icons/bi'
+import { FaClipboardCheck } from 'react-icons/fa'
 
 const Hero = () => {
   return (
-    <div id="osebe" className="hero bg-base-200 px-2">
-      <div className="hero-content flex-col lg:flex-row-reverse my-10">
+    <div id="osebe" className="caveat-font hero bg-base-200 px-2">
+      <div className="hero-content flex-col lg:flex-row-reverse md:my-10">
         <Image
           src={foto}
           alt="Мое фото"
-          className="max-w-xs xl:max-w-sm rounded-3xl shadow-xl shadow-slate-600"
+          className="max-w-40 xl:max-w-sm rounded-3xl shadow-xl shadow-slate-600"
         />
-        <div className="mt-5 lg:mr-10">
-          <div className="text-slate-500 text-xl lg:text-2xl font-light flex items-center justify-center gap-2">
+        <div className="md:mt-5 lg:mr-10">
+          <div className="text-slate-600 text-2xl font-light flex items-center justify-center gap-2">
             <h2>Юлия Таирова</h2>
             <TbRosetteDiscountCheckFilled className="text-primary" />
           </div>
-          <h1 className="text-3xl md:text-4xl lg:text-6xl mt-5 font-light text-primary">
-            Ваш личный психолог
+          <h1 className="text-3xl md:text-4xl lg:text-6xl md:mt-5 text-primary font-bold">
+            Помощь профессионального психолога
           </h1>
-          <h2 className="mt-5 lg:text-2xl flex items-center font-light">
-            Решаю Ваши псхилогические проблемы. Сделаю Вашу жизнь счастливой и
-            гармоничной.
-          </h2>
-          <div className="py-6 font-light text-base grid grid-cols-1 xl:grid-cols-2 gap-5">
+          <div className="mt-5 text-xl lg:text-2xl flex items-center">
+            <FaClipboardCheck className="shrink-0 text-primary mr-2" />
+            <p>Решаю Ваши псхилогические проблемы</p>
+          </div>
+          <div className="mt-5 text-xl lg:text-2xl flex items-center">
+            <FaClipboardCheck className="shrink-0 text-primary mr-2" />
+            <p>Работаю на результат</p>
+          </div>
+          <div className="mt-5 text-xl lg:text-2xl flex items-center">
+            <FaClipboardCheck className=" shrink-0 text-primary mr-2" />
+            <p>Делаю жизнь людей счастливой и гармоничной</p>
+          </div>
+
+          <div className="flex justify-center mt-5">
+            <a
+              href="whatsapp://send?phone=79670377183"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-primary text-lg  xl:mt-5"
+            >
+              Записаться на консультацию
+            </a>
+          </div>
+          <div className="py-6 font-light text-lg  lg:text-xl  grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-5">
             <p className="p-3 bg-violet-100 rounded-lg">
               Cпециалист по психокатализу
             </p>
@@ -38,16 +58,6 @@ const Hero = () => {
             <p className="p-3 bg-violet-100">
               Ведущая 15 психологических трансформационных игр
             </p>
-          </div>
-          <div className="flex justify-center">
-            <a
-              href="whatsapp://send?phone=79670377183"
-              target="_blank"
-              rel="noreferrer"
-              className="btn btn-primary xl:mt-5"
-            >
-              Записаться на консультацию
-            </a>
           </div>
         </div>
       </div>

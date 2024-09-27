@@ -10,7 +10,7 @@ const Navbar = () => {
             <div
               tabIndex={0}
               role="button"
-              className="btn btn-ghost xl:hidden pr-1 md:pr-2"
+              className="btn btn-ghost xl:hidden pr-2 pl-0"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -50,9 +50,9 @@ const Navbar = () => {
           </div>
           <a
             href="/"
-            className="btn h-16 w-auto text-xs md:text-base text-primary flex flex-col p-1"
+            className="caveat-font btn h-16 w-auto text-sm md:text-base text-primary flex flex-col"
           >
-            Психолог Юлия Таирова
+            Психолог: Юлия Таирова
           </a>
         </div>
         <div className="navbar-center hidden xl:flex">
