@@ -10,17 +10,17 @@ const Contacts = () => {
         <h2 className="w-full text-center text-3xl font-light text-primary">
           Как можно со мной связаться
         </h2>
-        <div className="mt-5 grid grid-cols-2 xl:grid-col-4 gap-5 mx-5 md:mx-10">
+        <div className="mt-5 grid grid-cols-1 md:grid-cols-2 xl:grid-col-4 gap-5 mx-5 md:mx-10">
           <div className="flex items-center">
-            <FaPhoneVolume className="mr-2 text-primary" />
+            <FaPhoneVolume className="shrink-0 mr-2 text-primary" />
             <p>+79670377183</p>
           </div>
           <div className="flex items-center">
-            <AiTwotoneMail className="mr-2 text-red-400" />
+            <AiTwotoneMail className="shrink-0 mr-2 text-red-400" />
             <p>juliav471@gmail.com</p>
           </div>
           <div className="flex items-center">
-            <IoLogoWhatsapp className="text-green-400 mr-2" />
+            <IoLogoWhatsapp className="shrink-0 text-green-400 mr-2" />
             <a
               href="whatsapp://send?phone=79670377183"
               target="_blank"
@@ -31,7 +31,7 @@ const Contacts = () => {
             </a>
           </div>
           <div className="flex items-center">
-            <FaTelegram className="mr-2 text-sky-400" />
+            <FaTelegram className="shrink-0 mr-2 text-sky-400" />
             <a
               href="https://t.me/juliya_tairova"
               target="_blank"
