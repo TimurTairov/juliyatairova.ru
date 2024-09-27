@@ -65,7 +65,10 @@ const Carousel = () => {
   ]
 
   return (
-    <div className="max-w-screen-xl mx-auto flex items-center justify-center">
+    <div
+      id="diplomy"
+      className="max-w-screen-xl mx-auto flex items-center justify-center"
+    >
       <div className="w-full">
         <ImageGallery items={images} {...settings} />
       </div>

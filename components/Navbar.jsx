@@ -7,10 +7,14 @@ const Navbar = () => {
       <nav className="max-w-screen-xl mx-auto navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <div
+              tabIndex={0}
+              role="button"
+              className="btn btn-ghost xl:hidden pr-1 md:pr-2"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+                className="h-5 w-5 md:h-7 md:w-7"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -25,51 +29,48 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              className="menu menu-sm md:menu-md lg:menu-lg dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a>Item 1</a>
+                <a href="#osebe">О себе</a>
               </li>
               <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+                <a href="#education">Образование</a>
               </li>
               <li>
-                <a>Item 3</a>
+                <a href="#diplomy">Дипломы</a>
+              </li>
+              <li>
+                <a href="#services">Чем погу помочь</a>
+              </li>
+              <li>
+                <a href="#contacts">Контакты</a>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-base lg:text-xl text-primary">
-            Юлия Таирова
+          <a
+            href="/"
+            className="btn btn-ghost text-xs md:text-base text-primary flex flex-col p-0 md:p-2"
+          >
+            Психолог Юлия Таирова
           </a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center hidden xl:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Item 1</a>
+              <a href="#osebe">О себе</a>
             </li>
             <li>
-              <details>
-                <summary>Parent</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
+              <a href="#education">Образование</a>
             </li>
             <li>
-              <a>Item 3</a>
+              <a href="#diplomy">Дипломы</a>
+            </li>
+            <li>
+              <a href="#services">Чем погу помочь</a>
+            </li>
+            <li>
+              <a href="#contacts">Контакты</a>
             </li>
           </ul>
         </div>
