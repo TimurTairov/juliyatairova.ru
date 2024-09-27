@@ -14,7 +14,7 @@ const Navbar = () => {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 md:h-7 md:w-7"
+                className="h-7 w-7 md:h-10 md:w-10"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -50,7 +50,7 @@ const Navbar = () => {
           </div>
           <a
             href="/"
-            className="btn btn-ghost text-xs md:text-base text-primary flex flex-col p-0 md:p-2"
+            className="btn h-16 w-auto text-xs md:text-base text-primary flex flex-col p-2"
           >
             Психолог Юлия Таирова
           </a>
