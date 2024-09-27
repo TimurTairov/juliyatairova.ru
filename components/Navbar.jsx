@@ -1,5 +1,6 @@
 import { IoLogoWhatsapp } from 'react-icons/io'
 import { FaTelegram } from 'react-icons/fa'
+import { FaPhoneVolume } from 'react-icons/fa6'
 
 const Navbar = () => {
   return (
@@ -75,6 +76,10 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
+          <div className=" hidden md:flex items-center">
+            <FaPhoneVolume className="mr-2" />
+            <p>+79670377183</p>
+          </div>
           <a
             href="whatsapp://send?phone=79670377183"
             target="_blank"

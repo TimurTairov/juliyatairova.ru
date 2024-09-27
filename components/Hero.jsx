@@ -1,36 +1,38 @@
 import foto from '../images/myfoto.jpg'
 import Image from 'next/image'
 import { TbRosetteDiscountCheckFilled } from 'react-icons/tb'
-import { BiSolidDonateHeart } from 'react-icons/bi'
 import { FaClipboardCheck } from 'react-icons/fa'
 
 const Hero = () => {
   return (
-    <div id="osebe" className="caveat-font hero bg-base-200 px-2">
+    <div id="osebe" className="hero bg-base-200 px-2">
       <div className="hero-content flex-col lg:flex-row-reverse md:my-10">
-        <Image
-          src={foto}
-          alt="Мое фото"
-          className="max-w-40 xl:max-w-sm rounded-3xl shadow-xl shadow-slate-600"
-        />
-        <div className="md:mt-5 lg:mr-10">
-          <div className="text-slate-600 text-2xl font-light flex items-center justify-center gap-2">
+        <div>
+          <Image
+            src={foto}
+            alt="Мое фото"
+            className="max-w-40 md:max-w-60 lg:max-w-md rounded-3xl shadow-xl shadow-slate-600"
+          />
+          <div className="text-slate-600 text-xl font-light flex items-center justify-center gap-2 mt-5">
             <h2>Юлия Таирова</h2>
             <TbRosetteDiscountCheckFilled className="text-primary" />
           </div>
-          <h1 className="text-3xl md:text-4xl lg:text-6xl md:mt-5 text-primary font-bold">
-            Помощь профессионального психолога
+        </div>
+
+        <div className="md:mt-5 lg:mr-10">
+          <h1 className="mt-5 text-2xl md:text-4xl lg:text-7xl md:mt-5 text-primary font-semibold">
+            Помощь психолога
           </h1>
-          <div className="mt-5 text-xl lg:text-2xl flex items-center">
-            <FaClipboardCheck className="shrink-0 text-primary mr-2" />
+          <div className="mt-3 md:mt-5 text-base lg:text-2xl flex items-start">
+            <FaClipboardCheck className="shrink-0 text-primary mr-2 relative top-1" />
             <p>Решаю Ваши псхилогические проблемы</p>
           </div>
-          <div className="mt-5 text-xl lg:text-2xl flex items-center">
-            <FaClipboardCheck className="shrink-0 text-primary mr-2" />
+          <div className="mt-2 md:mt-5 text-base lg:text-2xl flex items-start">
+            <FaClipboardCheck className="shrink-0 text-primary mr-2 relative top-1" />
             <p>Работаю на результат</p>
           </div>
-          <div className="mt-5 text-xl lg:text-2xl flex items-center">
-            <FaClipboardCheck className=" shrink-0 text-primary mr-2" />
+          <div className="mt-2 md:mt-5 text-base lg:text-2xl flex items-start">
+            <FaClipboardCheck className=" shrink-0 text-primary mr-2 relative top-1" />
             <p>Делаю жизнь людей счастливой и гармоничной</p>
           </div>
 
