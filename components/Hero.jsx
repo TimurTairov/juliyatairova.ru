@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
 
         <div className="md:mt-5 lg:mr-10">
-          <h1 className="mt-5 text-2xl md:text-4xl lg:text-7xl md:mt-5 text-primary font-semibold">
+          <h1 className="mt-5 text-3xl md:text-4xl lg:text-7xl md:mt-5 text-primary font-semibold">
             Помощь психолога
           </h1>
           <div className="mt-3 md:mt-5 text-base lg:text-2xl flex items-start">
@@ -41,7 +41,7 @@ const Hero = () => {
               href="whatsapp://send?phone=79670377183"
               target="_blank"
               rel="noreferrer"
-              className="btn btn-primary text-lg  xl:mt-5"
+              className="btn btn-primary   xl:mt-5"
             >
               Записаться на консультацию
             </a>
