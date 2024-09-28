@@ -6,13 +6,13 @@ import { BsPhoneVibrate } from 'react-icons/bs'
 
 const Contacts = () => {
   return (
-    <div id="contacts" className="md:mt-20 mb-10 bg-base-100">
-      <div className="max-w-screen-xl mx-auto ">
+    <div id="contacts" className="bg-base-200">
+      <div className="max-w-screen-xl mx-auto py-10 ">
         <div className="flex justify-center">
           <BsPhoneVibrate className="h-20 w-20 text-primary border-2 border-primary p-2 rounded-full" />
         </div>
-        <h2 className="mt-10 w-full text-center text-3xl font-light text-primary">
-          Как можно со мной связаться
+        <h2 className="mt-10 w-full text-center text-3xl font-medium text-primary">
+          Как со мной связаться
         </h2>
         <div className="mt-5 grid grid-cols-1 md:grid-cols-2 xl:grid-col-4 gap-10 mx-5 md:mx-10">
           <div className="flex items-center">

@@ -65,12 +65,14 @@ const Carousel = () => {
   ]
 
   return (
-    <div
-      id="diplomy"
-      className="max-w-screen-xl mx-auto flex items-center justify-center"
-    >
-      <div className="w-full">
-        <ImageGallery items={images} {...settings} />
+    <div className="bg-base-200">
+      <div
+        id="diplomy"
+        className="max-w-screen-xl  mx-auto flex items-center justify-center"
+      >
+        <div className="w-full">
+          <ImageGallery items={images} {...settings} />
+        </div>
       </div>
     </div>
   )
