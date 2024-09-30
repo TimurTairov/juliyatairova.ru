@@ -13,7 +13,7 @@ const Education = () => {
       <div className="hero-content flex-col lg:flex-row-reverse md:my-10">
         <section>
           <div className="max-w-screen-xl mx-auto flex gap-10 flex-col xl:flex-row my-5">
-            <div className="flex flex-col  gap-5 lg:gap-10">
+            <div className="flex flex-col  gap-5 ">
               <div className="flex justify-center">
                 <TbSchool className="h-20 w-20 text-primary border-2 border-primary p-2 rounded-full" />
               </div>
@@ -37,14 +37,27 @@ const Education = () => {
                   </li>
                   <li className="w-full mt-5 flex items-start">
                     <p className="w-full font-light p-3 bg-primary-content rounded-lg">
-                      Курсы повышения квалификации: - здесь нужно подробно
-                      расписать
+                      Курсы повышения квалификации Евгении Баксан:
+                      <br /> - обучение работе с метафорическими ассоциативными
+                      картами с Евгенией Баксан
+                      <br /> - обучение ведению трансформационной
+                      психологической игры с Евгенией Баксан.
+                    </p>
+                  </li>
+                  <li className="w-full mt-5 flex items-start">
+                    <p className="w-full font-light p-3 bg-primary-content rounded-lg">
+                      Центр психологии и тренинга Марии Минаковой: <br />-
+                      Работа психолога с темой "Поиск Предназначения"
+                      <br />- "МАК. Универсальные техники и лучшие колоды"
+                      <br />- "Экстренная помощь психолога в чрезвычайной
+                      ситуации"
+                      <br />- "Работа с темами: Любовь к себе. Принятие себя."
                     </p>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="flex flex-col gap-5 lg:gap-10">
+            <div className="flex flex-col gap-5">
               <div className="flex justify-center">
                 <GiDiploma className="h-20 w-20 text-primary border-2 border-primary p-2 rounded-full" />
               </div>

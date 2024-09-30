@@ -11,10 +11,10 @@ const Contacts = () => {
         <div className="flex justify-center">
           <BsPhoneVibrate className="h-20 w-20 text-primary border-2 border-primary p-2 rounded-full" />
         </div>
-        <h2 className="mt-10 w-full text-center text-3xl font-medium text-primary">
+        <h2 className="mt-5 w-full text-center text-3xl font-medium text-primary">
           Как со мной связаться
         </h2>
-        <div className="mt-5 grid grid-cols-1 md:grid-cols-2 xl:grid-col-4 gap-10 mx-5 md:mx-10">
+        <div className="mt-5 grid grid-cols-1 md:grid-cols-2 xl:grid-col-4 gap-5 mx-5 md:mx-10">
           <div className="flex items-center">
             <IoLogoWhatsapp className="shrink-0 h-7 w-7 text-green-400 mr-2" />
             <a

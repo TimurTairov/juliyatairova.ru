@@ -2,6 +2,7 @@ import foto from '../images/myfoto.jpg'
 import Image from 'next/image'
 import { TbRosetteDiscountCheckFilled } from 'react-icons/tb'
 import { FaClipboardCheck } from 'react-icons/fa'
+import { IoLogoWhatsapp } from 'react-icons/io'
 
 const Hero = () => {
   return (
@@ -41,9 +42,9 @@ const Hero = () => {
               href="whatsapp://send?phone=79670377183"
               target="_blank"
               rel="noreferrer"
-              className=" btn btn-primary  xl:mt-5"
+              className="glare-button btn btn-primary rounded-full xl:mt-5 flex items-center "
             >
-              Записаться на консультацию
+              Записаться на консультацию в Whatsapp
             </a>
           </div>
           <div className="py-6 font-light text-lg  lg:text-xl  grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-5">

@@ -55,10 +55,10 @@ const Navbar = () => {
           <div className="w-full flex justify-start">
             <a
               href="/"
-              className="caveat-font btn h-16 text-xl md:text-base text-primary flex flex-col"
+              className="caveat-font btn h-16 text-xl text-primary flex flex-col"
             >
               Психолог
-              <div className="badge badge-secondary">Юлия Таирова</div>
+              <div className="badge text-xl badge-secondary">Юлия Таирова</div>
             </a>
           </div>
         </div>

@@ -13,32 +13,42 @@ const Services = () => {
         <ul className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-col-3 mx-5 md:mx-10 gap-5">
           <li className="">
             <p className="font-light p-3 bg-primary-content rounded-lg">
-              отношения
+              Психологические травмы
             </p>
           </li>
           <li className="">
             <p className="font-light p-3 bg-primary-content rounded-lg">
-              зависимости
+              Эмоциональные зависимости
             </p>
           </li>
           <li className="">
             <p className="font-light p-3 bg-primary-content rounded-lg">
-              психологические травмы
+              Страхи, тревоги и фобии
             </p>
           </li>
           <li className="">
             <p className="font-light p-3 bg-primary-content rounded-lg">
-              депрессии
+              Обиды и разочарования
             </p>
           </li>
           <li className="">
             <p className="font-light p-3 bg-primary-content rounded-lg">
-              фобии
+              Психологические напряжения
             </p>
           </li>
           <li className="">
             <p className="font-light p-3 bg-primary-content rounded-lg">
-              страхи
+              Работа с ответственностью
+            </p>
+          </li>
+          <li className="">
+            <p className="font-light p-3 bg-primary-content rounded-lg">
+              Любовь и отношения
+            </p>
+          </li>
+          <li className="">
+            <p className="font-light p-3 bg-primary-content rounded-lg">
+              Любовь к себе. Принятие себя.
             </p>
           </li>
         </ul>
