@@ -10,7 +10,7 @@ const Education = () => {
       id="education"
       className="hero bg-base-200 px-2 flex items-center justify-center"
     >
-      <div className="hero-content flex-col lg:flex-row-reverse md:my-10">
+      <div className="mx-auto max-w-7xl flex-col lg:flex-row-reverse md:my-10">
         <section>
           <div className="max-w-screen-xl mx-auto flex gap-10 flex-col xl:flex-row my-5">
             <div className="flex flex-col  gap-5 ">

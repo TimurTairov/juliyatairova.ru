@@ -2,13 +2,13 @@ import foto from '../images/myfoto.jpg'
 import Image from 'next/image'
 import { TbRosetteDiscountCheckFilled } from 'react-icons/tb'
 import { FaClipboardCheck } from 'react-icons/fa'
-import { IoLogoWhatsapp } from 'react-icons/io'
+import MyAccordion from '@/components/MyAccordion'
 
 const Hero = () => {
   return (
     <div id="osebe" className="hero bg-base-200 px-2">
-      <div className="hero-content flex-col lg:flex-row-reverse">
-        <div>
+      <div className="mt-10 flex mx-auto max-w-7xl flex-col lg:flex-row-reverse">
+        <div className="flex flex-col items-center justify-center">
           <Image
             src={foto}
             alt="Мое фото"
@@ -20,8 +20,8 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="md:mt-5 lg:mr-10">
-          <h1 className="mt-5 text-3xl md:text-4xl lg:text-7xl md:mt-5 text-primary font-semibold">
+        <div className="lg:mr-10 flex flex-col justify-between">
+          <h1 className="text-3xl md:text-4xl lg:text-7xl text-primary font-semibold">
             Помощь психолога
           </h1>
           <div className="mt-3 md:mt-5 text-base lg:text-2xl flex items-start">
@@ -47,22 +47,44 @@ const Hero = () => {
               Записаться на консультацию в Whatsapp
             </a>
           </div>
-          <div className="py-6 font-light text-lg  lg:text-xl  grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-5">
-            <p className="p-3 bg-primary-content rounded-lg">
-              Cпециалист по психокатализу
-            </p>
-            <p className="p-3 bg-primary-content rounded-lg">Игропрактик</p>
-            <p className="p-3 bg-primary-content">Ведущая тренингов</p>
-            <p className="p-3 bg-primary-content rounded-lg">
-              Автор техник по МАК
-            </p>
-            <p className="p-3 bg-primary-content rounded-lg">
-              Специалист по работе с метафорическими ассоциативными картами
-              (МАК)
-            </p>
-            <p className="p-3 bg-primary-content">
-              Ведущая 15 психологических трансформационных игр
-            </p>
+          <div className="pt-6 font-light text-lg  lg:text-xl  grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-5">
+            <MyAccordion title={'Cпециалист по психокатализу'} id={1}>
+              <p className="p-3 bg-primary-content rounded-lg">
+                Cпециалист по психокатализу
+              </p>
+            </MyAccordion>
+            <MyAccordion title={'Игропрактик'} id={2}>
+              <p className="p-3 bg-primary-content rounded-lg">Игропрактик</p>
+            </MyAccordion>
+            <MyAccordion title={'Ведущая тренингов'} id={3}>
+              <p className="p-3 bg-primary-content rounded-lg">
+                Ведущая тренингов
+              </p>
+            </MyAccordion>
+            <MyAccordion title={'Автор тихник МАК'} id={6}>
+              <p className="p-3 bg-primary-content rounded-lg">
+                Автор тихник МАК
+              </p>
+            </MyAccordion>
+            <MyAccordion
+              title={
+                'Специалист по работе с метафорическими ассоциативными картами (МАК)'
+              }
+              id={4}
+            >
+              <p className="p-3 bg-primary-content rounded-lg">
+                Специалист по работе с метафорическими ассоциативными картами
+                (МАК)
+              </p>
+            </MyAccordion>
+            <MyAccordion
+              title={'Ведущая 15 психологических трансформационных игр'}
+              id={5}
+            >
+              <p className="p-3 bg-primary-content rounded-lg">
+                Ведущая 15 психологических трансформационных игр
+              </p>
+            </MyAccordion>
           </div>
         </div>
       </div>
