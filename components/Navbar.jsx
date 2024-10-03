@@ -55,8 +55,8 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="caveat-font btn h-16 flex justify-start mx-2">
-            <a href="/" className="  text-xl text-primary flex flex-col">
+          <div className="caveat-font btn h-16 flex justify-start">
+            <a href="/" className="text-xl text-primary flex flex-col">
               Психолог
               <div className="badge text-xl badge-secondary p-3">
                 Юлия Таирова

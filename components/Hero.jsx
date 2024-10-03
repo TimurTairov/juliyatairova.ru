@@ -46,9 +46,9 @@ const Hero = () => {
               href="https://wa.me/79670377183?text=Юлия+здравствуйте%2C+записываюсь+к+вам+на+бесплатную+консультацию."
               target="_blank"
               rel="noreferrer"
-              className="glare-button btn btn-primary rounded-full xl:mt-5 flex items-center text-xs md:text-lg lg:text-xl xl:text-2xl  hover:bg-white   hover:text-primary transition-colors duration-700 px-2 md:px-6"
+              className="glare-button btn text-center btn-primary rounded-full xl:mt-5 flex items-center text-xs md:text-lg lg:text-xl xl:text-2xl  hover:bg-white hover:text-primary transition-colors duration-700 px-1 md:px-6"
             >
-              Записаться на бесплатную консультацию в Whatsapp
+              Запишитесь на бесплатную консультацию в Whatsapp
             </a>
           </div>
 
