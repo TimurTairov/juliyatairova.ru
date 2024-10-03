@@ -13,24 +13,24 @@ const Education = () => {
       <div className="mx-auto max-w-7xl flex-col lg:flex-row-reverse md:my-10">
         <section>
           <div className="max-w-screen-xl mx-auto flex gap-10 flex-col xl:flex-row my-5">
-            <div className="flex flex-col  gap-5 ">
+            <div className="flex flex-col gap-5 ">
               <div className="flex justify-center">
-                <TbSchool className="h-20 w-20 text-primary border-2 border-primary p-2 rounded-full" />
+                <TbSchool className="h-20 w-20 text-primary border-2 border-primary p-2 rounded-full hover:bg-primary hover:text-white transition-colors duration-500" />
               </div>
               <div className="flex flex-col">
                 <h2 className="text-3xl text-center font-medium text-primary">
                   Образование
                 </h2>
                 <ul>
-                  <li className="mt-5 flex items-start">
-                    <p className="font-light p-3 bg-primary-content rounded-lg">
+                  <li className="w-full mt-5 flex items-start">
+                    <p className="w-full font-light p-3 bg-primary-content rounded-lg">
                       Междисциплинарный учебно-исследовательский центр (МУИЦ).
                       Факультет практической психологии, психотерапии и
                       социальной работы.
                     </p>
                   </li>
-                  <li className="mt-5 flex items-start">
-                    <p className="font-light p-3 bg-primary-content rounded-lg">
+                  <li className="w-full mt-5 flex items-start">
+                    <p className="w-full font-light p-3 bg-primary-content rounded-lg">
                       Институт консультирования и системных решений.
                       Психокатализ: саморегуляция для здоровья и успеха.
                     </p>
@@ -59,39 +59,39 @@ const Education = () => {
             </div>
             <div className="flex flex-col gap-5">
               <div className="flex justify-center">
-                <GiDiploma className="h-20 w-20 text-primary border-2 border-primary p-2 rounded-full" />
+                <GiDiploma className="h-20 w-20 text-primary border-2 border-primary p-2 rounded-full hover:bg-primary hover:text-white transition-colors duration-500" />
               </div>
               <div className="flex flex-col">
                 <h2 className="text-3xl text-center font-medium text-primary">
                   Дипломы
                 </h2>
                 <ul>
-                  <li className="mt-5 flex items-start">
-                    <p className="font-light p-3 bg-primary-content rounded-lg">
+                  <li className=" mt-5 flex items-start">
+                    <p className="w-full font-light p-3 bg-primary-content rounded-lg">
                       Диплом практического психолога. Холистическая (целостная)
                       практическая психология.
                     </p>
                   </li>
                   <li className="mt-5 flex items-start">
-                    <p className="font-light p-3 bg-primary-content rounded-lg">
+                    <p className="w-full font-light p-3 bg-primary-content rounded-lg">
                       Удостоверение о повышении квалификации. Психокатализ:
                       саморегуляция для здоровья и успеха.
                     </p>
                   </li>
                   <li className="mt-5 flex items-start">
-                    <p className="font-light p-3 bg-primary-content rounded-lg">
+                    <p className="w-full font-light p-3 bg-primary-content rounded-lg">
                       Сертификат о прохождении курса: соматопсихология и
                       психокатализ.
                     </p>
                   </li>
                   <li className="mt-5 flex items-start">
-                    <p className="font-light p-3 bg-primary-content rounded-lg">
+                    <p className="w-full font-light p-3 bg-primary-content rounded-lg">
                       Сертификат о прохождении курса: трансфрмационная
                       психологическая игра "Подсказки Вселенной".
                     </p>
                   </li>
                   <li className="mt-5 flex items-start">
-                    <p className="font-light p-3 bg-primary-content rounded-lg">
+                    <p className="w-full font-light p-3 bg-primary-content rounded-lg">
                       Сертификат о прохождении курса: работа с метафорическими
                       ассоциативными картами.
                     </p>

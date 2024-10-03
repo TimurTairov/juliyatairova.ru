@@ -9,7 +9,7 @@ const Contacts = () => {
     <div id="contacts" className="bg-base-200">
       <div className="max-w-screen-xl mx-auto py-10 flex flex-col items-center ">
         <div className="flex justify-center">
-          <BsPhoneVibrate className="h-20 w-20 text-primary border-2 border-primary p-2 rounded-full" />
+          <BsPhoneVibrate className="h-20 w-20 text-primary border-2 border-primary p-2 rounded-full hover:bg-primary hover:text-white transition-colors duration-500" />
         </div>
         <h2 className="mt-5 w-full text-center text-3xl font-medium text-primary">
           Как со мной связаться

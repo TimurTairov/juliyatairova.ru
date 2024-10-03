@@ -5,7 +5,7 @@ const Services = () => {
     <div id="services" className="bg-base-200 py-10">
       <div className="mx-auto max-w-7xl">
         <div className="flex justify-center">
-          <MdOutlineLiveHelp className="h-20 w-20 text-primary border-2 border-primary p-2 rounded-full" />
+          <MdOutlineLiveHelp className="h-20 w-20 text-primary border-2 border-primary p-2 rounded-full hover:bg-primary hover:text-white transition-colors duration-500" />
         </div>
         <h2 className="mt-5 w-full text-center text-3xl font-medium text-primary">
           Чем могу Вам помочь

@@ -14,11 +14,11 @@ const Navbar = () => {
             <div
               tabIndex={0}
               role="button"
-              className="btn btn-ghost xl:hidden pl-0 pr-1"
+              className="btn btn-ghost xl:hidden pl-1 pr-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 sm:h-7 sm:w-7 md:h-10 md:w-10"
+                className="h-8 w-8 sm:h-7 sm:w-7 md:h-10 md:w-10"
                 fill="text-primary"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -33,7 +33,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm md:menu-md lg:menu-lg dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              className="menu menu-md md:menu-md lg:menu-lg dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li>
                 <a href="#osebe">О себе</a>
@@ -48,17 +48,19 @@ const Navbar = () => {
                 <a href="#services">Чем погу помочь</a>
               </li>
               <li>
+                <a href="#price">Цены</a>
+              </li>
+              <li>
                 <a href="#contacts">Контакты</a>
               </li>
             </ul>
           </div>
-          <div className="w-full flex justify-start">
-            <a
-              href="/"
-              className="caveat-font btn h-16 text-xl text-primary flex flex-col"
-            >
+          <div className="caveat-font btn h-16 flex justify-start mx-2">
+            <a href="/" className="  text-xl text-primary flex flex-col">
               Психолог
-              <div className="badge text-xl badge-secondary">Юлия Таирова</div>
+              <div className="badge text-xl badge-secondary p-3">
+                Юлия Таирова
+              </div>
             </a>
           </div>
         </div>
@@ -75,6 +77,9 @@ const Navbar = () => {
             </li>
             <li>
               <a href="#services">Чем погу помочь</a>
+            </li>
+            <li>
+              <a href="#price">Цены</a>
             </li>
             <li>
               <a href="#contacts">Контакты</a>
