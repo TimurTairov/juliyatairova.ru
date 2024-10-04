@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ru">
       <body
-        className={`montserrat-font antialiased `}
+        className={`montserrat-font antialiased`}
       >
         <Navbar />
         {children}

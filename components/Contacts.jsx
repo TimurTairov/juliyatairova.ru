@@ -6,8 +6,8 @@ import { BsPhoneVibrate } from 'react-icons/bs'
 
 const Contacts = () => {
   return (
-    <div id="contacts" className="bg-base-200">
-      <div className="max-w-screen-xl mx-auto py-10 flex flex-col items-center ">
+    <div id="contacts" className="bg-base-200 py-10 md:py-14 lg:py-16 xl:py-20">
+      <div className="max-w-screen-xl mx-auto flex flex-col items-center ">
         <div className="flex justify-center">
           <BsPhoneVibrate className="h-20 w-20 text-primary border-2 border-primary p-2 rounded-full hover:bg-primary hover:text-white transition-colors duration-500" />
         </div>

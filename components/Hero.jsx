@@ -1,13 +1,22 @@
 import foto from '../images/myfoto.jpg'
 import Image from 'next/image'
+import img1 from '@/images/img6.png'
 import { TbRosetteDiscountCheckFilled } from 'react-icons/tb'
 import { FaClipboardCheck } from 'react-icons/fa'
 import MyAccordion from '@/components/MyAccordion'
 
 const Hero = () => {
   return (
-    <div id="osebe" className="hero bg-base-200 px-3">
-      <div className="mt-10 flex mx-auto max-w-7xl flex-col lg:flex-row-reverse">
+    <div
+      id="osebe"
+      className="hero bg-base-200 px-3 py-10 md:py-14 lg:py-16 xl:py-20"
+    >
+      <Image
+        src={img1}
+        alt="flowers"
+        className="w-full absolute left-0 top-20 opacity-50 z-0"
+      />
+      <div className="mt-10 flex mx-auto max-w-7xl flex-col lg:flex-row-reverse lg:items-start z-40">
         <div className="flex flex-col items-center justify-center ">
           <Image
             src={foto}

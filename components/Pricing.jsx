@@ -1,9 +1,8 @@
 import { PiCurrencyRubFill } from 'react-icons/pi'
-import { PiCurrencyRubThin } from 'react-icons/pi'
 
 const Pricing = () => {
   return (
-    <div id="price" className="bg-base-200 ">
+    <div id="price" className="bg-base-200 py-10 md:py-14 lg:py-16 xl:py-20">
       <div className="flex justify-center">
         <PiCurrencyRubFill className="h-20 w-20 text-primary border-2 border-primary p-1 rounded-full hover:bg-primary hover:text-white transition-colors duration-500" />
       </div>
@@ -132,7 +131,7 @@ const Pricing = () => {
             href="https://wa.me/79670377183?text=Юлия+здравствуйте%2C+хочу+к+вам+на+бесплатную+консультацию."
             target="_blank"
             rel="noreferrer"
-            className="mt-8 block rounded-full border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-indigo-700 hover:ring-1 hover:ring-indigo-700 focus:outline-none focus:ring active:text-indigo-500 glare-button btn"
+            className="glare-button btn text-center btn-primary rounded-full xl:mt-5 flex items-center text-xs md:text-lg lg:text-xl xl:text-3xl  hover:bg-white hover:text-primary transition-colors duration-700 px-3 md:px-6"
           >
             Записаться
           </a>
@@ -278,7 +277,7 @@ const Pricing = () => {
             href="https://wa.me/79670377183?text=Юлия+здравствуйте%2C+записываюсь+к+вам+на+платную+консультацию."
             target="_blank"
             rel="noreferrer"
-            className="mt-8 block rounded-full border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-indigo-700 hover:ring-1 hover:ring-indigo-700 focus:outline-none focus:ring active:text-indigo-500 glare-button btn"
+            className="glare-button btn text-center btn-primary rounded-full xl:mt-5 flex items-center text-xs md:text-lg lg:text-xl xl:text-3xl  hover:bg-white hover:text-primary transition-colors duration-700 px-3 md:px-6"
           >
             Записаться
           </a>
@@ -442,7 +441,7 @@ const Pricing = () => {
             href="https://wa.me/79670377183?text=Юлия+здравствуйте%2C+записываюсь+к+вам+на+блок+из+трех+консультаций."
             target="_blank"
             rel="noreferrer"
-            className="mt-8 block rounded-full border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-indigo-700 hover:ring-1 hover:ring-indigo-700 focus:outline-none focus:ring active:text-indigo-500 glare-button btn"
+            className="glare-button btn text-center btn-primary rounded-full xl:mt-5 flex items-center text-xs md:text-lg lg:text-xl xl:text-3xl  hover:bg-white hover:text-primary transition-colors duration-700 px-3 md:px-6"
           >
             Записаться
           </a>

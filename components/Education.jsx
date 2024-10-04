@@ -1,6 +1,4 @@
-import Image from 'next/image'
-import diploma from '@/images/1Diplom.svg'
-import education from '@/images/1Education.svg'
+import Carousel from '@/components/Carousel'
 import { TbSchool } from 'react-icons/tb'
 import { GiDiploma } from 'react-icons/gi'
 
@@ -8,9 +6,9 @@ const Education = () => {
   return (
     <div
       id="education"
-      className="hero bg-base-200 px-2 flex items-center justify-center"
+      className="hero bg-base-200 px-2 flex flex-col items-center justify-center py-10 md:py-14 lg:py-16 xl:py-20"
     >
-      <div className="mx-auto max-w-7xl flex-col lg:flex-row-reverse md:my-10">
+      <div className="mx-auto max-w-7xl flex-col lg:flex-row-reverse my-5 md:my-10">
         <section>
           <div className="max-w-screen-xl mx-auto flex gap-10 flex-col xl:flex-row my-5">
             <div className="flex flex-col gap-5 ">
@@ -102,6 +100,8 @@ const Education = () => {
           </div>
         </section>
       </div>
+
+      <Carousel />
     </div>
   )
 }

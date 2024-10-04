@@ -7,7 +7,7 @@ import { GiRotaryPhone } from 'react-icons/gi'
 
 const Navbar = () => {
   return (
-    <div className="bg-base-100">
+    <div className="bg-base-100 z-50">
       <nav className="max-w-screen-xl mx-auto navbar ">
         <div className="navbar-start">
           <div className="dropdown">
