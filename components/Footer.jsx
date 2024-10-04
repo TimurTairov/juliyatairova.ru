@@ -5,16 +5,46 @@ import { FaWhatsappSquare } from 'react-icons/fa'
 const Footer = () => {
   return (
     <footer className="footer footer-center bg-base-100 text-base-content rounded p-10">
-      <nav className="grid grid-flow-col gap-4">
-        <a href="#osebe">О себе</a>
-        <a href="#education">Образование</a>
-        <a href="#diplomy">Дипломы</a>
-        <a href="#services">Чем погу помочь</a>
-        <a href="#price">Цены</a>
-        <a href="#contacts">Контакты</a>
+      <nav className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-4">
+        <a
+          href="#osebe"
+          className="hover:text-indigo-600 hover:bg-gray-200 p-2 rounded-md"
+        >
+          О себе
+        </a>
+        <a
+          href="#education"
+          className="hover:text-indigo-600 hover:bg-gray-200 p-2 rounded-md"
+        >
+          Образование
+        </a>
+        <a
+          href="#diplomy"
+          className="hover:text-indigo-600 hover:bg-gray-200 p-2 rounded-md"
+        >
+          Дипломы
+        </a>
+        <a
+          href="#services"
+          className="hover:text-indigo-600 hover:bg-gray-200 p-2 rounded-md"
+        >
+          Чем погу помочь
+        </a>
+        <a
+          href="#price"
+          className="hover:text-indigo-600 hover:bg-gray-200 p-2 rounded-md"
+        >
+          Цены
+        </a>
+        <a
+          href="#contacts"
+          className="hover:text-indigo-600 hover:bg-gray-200 p-2 rounded-md"
+        >
+          Контакты
+        </a>
       </nav>
       <nav>
-        <div className="grid grid-flow-col gap-4">
+        <div className="grid grid-cols-3 gap-4">
           <a
             href="whatsapp://send?phone=79670377183"
             target="_blank"

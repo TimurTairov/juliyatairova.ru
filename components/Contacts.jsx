@@ -21,7 +21,7 @@ const Contacts = () => {
               href="whatsapp://send?phone=79670377183"
               target="_blank"
               rel="noreferrer"
-              className="btn "
+              className="bg-gray-200 hover:bg-gray-300 px-4 py-3 rounded-md"
             >
               Написать мне в whatsapp
             </a>
@@ -32,18 +32,32 @@ const Contacts = () => {
               href="https://t.me/juliya_tairova"
               target="_blank"
               rel="noreferrer"
-              className="btn"
+              className="bg-gray-200 hover:bg-gray-300 px-4 py-3 rounded-md"
             >
               Написать мне в телеграм
             </a>
           </div>
           <div className="flex items-center">
             <FaPhoneVolume className="shrink-0 h-7 w-7 mr-2 text-primary" />
-            <p className="btn">Позвонить +79670377183</p>
+            <a
+              href="tel:+79670377183"
+              target="_blank"
+              rel="noreferrer"
+              className="bg-gray-200 hover:bg-gray-300 px-4 py-3 rounded-md"
+            >
+              Позвонить +79670377183
+            </a>
           </div>
           <div className="flex items-center">
             <AiTwotoneMail className="shrink-0 h-7 w-7 mr-2 text-red-400" />
-            <p className="btn">E-mail: juliav471@gmail.com</p>
+            <a
+              href="mailto:juliav471@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+              className="bg-gray-200 hover:bg-gray-300 px-4 py-3 rounded-md"
+            >
+              E-mail: juliav471@gmail.com
+            </a>
           </div>
         </div>
       </div>
