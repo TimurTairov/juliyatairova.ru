@@ -13,8 +13,8 @@ const Hero = () => {
     >
       <Image
         src={img1}
-        alt="flowers"
-        className="w-full absolute left-0 top-20 opacity-50 z-0"
+        alt="небо"
+        className="w-full absolute left-0 top-20 opacity-40 z-0"
       />
       <div className="mt-10 flex mx-auto max-w-7xl flex-col lg:flex-row-reverse lg:items-start z-40">
         <div className="flex flex-col items-center justify-center ">
