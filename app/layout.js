@@ -6,8 +6,8 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Ваш личный психолог - Юлия Таирова",
-  description: "Призвана помогать людям решать их проблемы",
+  title: "Юлия Таирова - психолог онлайн, оффлайн в Москве",
+  description: "Психологическая помощь, игры и консультации онлайн или очно в Москве",
 };
 
 export default function RootLayout({ children }) {

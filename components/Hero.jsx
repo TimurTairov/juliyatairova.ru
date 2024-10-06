@@ -16,8 +16,8 @@ const Hero = () => {
         alt="небо"
         className="w-full absolute left-0 top-20 opacity-40 z-0"
       />
-      <div className="mt-10 flex mx-auto max-w-7xl flex-col lg:flex-row-reverse lg:items-start z-40">
-        <div className="flex flex-col items-center justify-center ">
+      <div className="flex mx-auto max-w-7xl flex-col lg:flex-row-reverse lg:justify-between z-40">
+        <div className="flex flex-col items-center ">
           <Image
             src={foto}
             alt="Мое фото"
@@ -31,22 +31,26 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="mt-10 lg:mt-0 lg:mr-5 xl:mr-10 flex flex-col justify-between items-center">
-          <div>
-            <h1 className="text-3xl md:text-4xl lg:text-7xl text-primary font-semibold text-center">
-              Помощь психолога
+        <div className="mt-5 lg:mt-0 lg:mr-5 xl:mr-10 flex flex-col items-center justify-between">
+          <div className="flex flex-col">
+            <h1 className="text-2xl md:text-4xl lg:text-5xl text-primary font-semibold text-center">
+              Психолог онлайн / оффлайн в Москве
             </h1>
-            <div className="mt-3 md:mt-5 text-base lg:text-2xl flex items-start">
-              <FaClipboardCheck className="shrink-0 text-primary mr-2 relative top-1 hover:scale-150 transition-transform duration-700" />
-              <p>Десять лет успешной работы</p>
-            </div>
-            <div className="mt-2 md:mt-5 text-base lg:text-2xl flex items-start">
-              <FaClipboardCheck className="shrink-0 text-primary mr-2 relative top-1 hover:scale-150 transition-transform duration-700" />
-              <p>Работаю на результат</p>
-            </div>
-            <div className="mt-2 md:mt-5 text-base lg:text-2xl flex items-start">
-              <FaClipboardCheck className=" shrink-0 text-primary mr-2 relative top-1 hover:scale-150 transition-transform duration-700" />
-              <p>Помогаю людям быть счастливее</p>
+            <div className="flex flex-col items-center justify-center">
+              <div>
+                <div className="mt-3 md:mt-5  xl:mt-10 text-base lg:text-2xl flex items-start">
+                  <FaClipboardCheck className="shrink-0 text-primary mr-2 relative top-1 hover:scale-150 transition-transform duration-700" />
+                  <p>Десять лет успешной работы</p>
+                </div>
+                <div className="mt-2 md:mt-5 text-base lg:text-2xl flex items-start">
+                  <FaClipboardCheck className="shrink-0 text-primary mr-2 relative top-1 hover:scale-150 transition-transform duration-700" />
+                  <p>Работаю на результат</p>
+                </div>
+                <div className="mt-2 md:mt-5 text-base lg:text-2xl flex items-start">
+                  <FaClipboardCheck className=" shrink-0 text-primary mr-2 relative top-1 hover:scale-150 transition-transform duration-700" />
+                  <p>Помогаю людям быть счастливее</p>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -61,7 +65,7 @@ const Hero = () => {
             </a>
           </div>
 
-          <div className="mt-6 font-light text-lg lg:text-xl  xl:text-2xl  grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-5">
+          <div className="mt-5 xl:mt-20 font-light text-lg lg:text-xl  xl:text-2xl  grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-5">
             <MyAccordion title={'Cпециалист по психокатализу'} id={1}>
               <p className="p-3 bg-indigo-100 text-base text-indigo-950 rounded-md">
                 Психокатализ - это эффективный метод регуляции психического

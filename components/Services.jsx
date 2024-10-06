@@ -29,7 +29,7 @@ const Services = () => {
         </div>
         <ul className="mt-5 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 px-2">
           <li className="bg-primary-content flex items-center justify-between p-5 rounded-xl">
-            <Image src={img1} alt="img" className="size-20" />
+            <Image src={img5} alt="img" className="size-20" />
             <p className="w-full p-3 md:text-lg text-right">
               Психологические травмы
             </p>
@@ -53,7 +53,7 @@ const Services = () => {
             </p>
           </li>
           <li className="bg-primary-content flex p-5 rounded-xl">
-            <Image src={img5} alt="img" className="size-20" />
+            <Image src={img1} alt="img" className="size-20" />
             <p className="w-full p-3 md:text-lg text-right">
               Психологические напряжения
             </p>
