@@ -14,9 +14,9 @@ const Hero = () => {
       <Image
         src={img1}
         alt="spiral"
-        className="w-1/2 absolute left-0 lg:left-0 top-24 lg:top-20 opacity-50 z-10"
+        className="w-1/2 absolute left-0 top-24 md:top-20 opacity-50 z-0"
       />
-      <div className="flex mx-auto max-w-7xl flex-col lg:flex-row-reverse lg:justify-between z-40">
+      <div className="flex mx-auto max-w-7xl flex-col md:flex-row-reverse md:justify-between z-40">
         <div className="flex flex-col items-center ">
           <Image
             src={foto}
@@ -36,7 +36,7 @@ const Hero = () => {
             <h1 className="text-2xl md:text-4xl lg:text-5xl text-primary font-semibold text-center">
               Психолог онлайн
             </h1>
-            <p className="text-primary font-semibold text-right mr-1">
+            <p className="text-primary text-xs md:text-base font-semibold text-center lg:text-right lg:mr-1">
               оффлайн в Москве
             </p>
           </div>
@@ -70,7 +70,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="flex justify-center">
-        <div className="max-w-7xl mt-5 xl:mt-20 font-light text-lg lg:text-xl  xl:text-2xl  grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-5">
+        <div className="max-w-7xl mt-5 md:mt-10 lg:mt-14 xl:mt-20 font-light text-lg lg:text-xl  xl:text-2xl  grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-5">
           <MyAccordion title={'Cпециалист по психокатализу'} id={1}>
             <p className="mt-2 p-5 bg-violet-500 text-base text-white rounded-2xl">
               Психокатализ - это эффективный метод регуляции психического
