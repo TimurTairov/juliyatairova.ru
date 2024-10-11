@@ -11,7 +11,7 @@ export default function MyAccordion({ children, title, id, active = false }) {
     <div className="">
       <h2>
         <button
-          className="flex items-center justify-between text-base lg:text-xl p-2 border border-primary rounded-3xl text-primary  w-full text-left py-0 lg:py-2"
+          className="flex items-center justify-between text-base lg:text-xl p-3 border border-primary rounded-3xl text-primary  w-full text-left py-0 lg:py-2"
           onClick={(e) => {
             e.preventDefault()
             setAccordionOpen(!accordionOpen)
