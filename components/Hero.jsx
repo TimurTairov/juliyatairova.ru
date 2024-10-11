@@ -44,15 +44,15 @@ const Hero = () => {
             <div>
               <div className="mt-3 md:mt-5 lg:mt-0 text-base lg:text-2xl flex items-start">
                 <FaClipboardCheck className="shrink-0 text-primary mr-2 relative top-1 hover:scale-150 transition-transform duration-700" />
-                <p>Десять лет успешной работы</p>
+                <p className="text-primary">Десять лет успешной работы</p>
               </div>
               <div className="mt-2 md:mt-5 text-base lg:text-2xl flex items-start">
                 <FaClipboardCheck className="shrink-0 text-primary mr-2 relative top-1 hover:scale-150 transition-transform duration-700" />
-                <p>Работаю на результат</p>
+                <p className="text-primary">Работаю на результат</p>
               </div>
               <div className="mt-2 md:mt-5 text-base lg:text-2xl flex items-start">
                 <FaClipboardCheck className=" shrink-0 text-primary mr-2 relative top-1 hover:scale-150 transition-transform duration-700" />
-                <p>Помогаю людям стать счастливее</p>
+                <p className="text-primary">Помогаю людям стать счастливее</p>
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@ const Hero = () => {
               href="https://wa.me/79670377183?text=Юлия+здравствуйте%2C+записываюсь+к+вам+на+бесплатную+консультацию."
               target="_blank"
               rel="noreferrer"
-              className="glare-button btn text-center btn-primary rounded-full xl:mt-5 flex items-center text-xs md:text-lg lg:text-xl xl:text-xl  hover:bg-white hover:text-primary transition-colors duration-700 px-3 md:px-6"
+              className="glare-button btn text-center btn-primary rounded-full xl:mt-5 flex items-center text-xs md:text-lg  hover:bg-white hover:text-primary transition-colors duration-700 px-3 md:px-6"
             >
               Запишитесь на бесплатную консультацию
             </a>
