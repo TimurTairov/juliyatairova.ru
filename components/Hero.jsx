@@ -72,7 +72,7 @@ const Hero = () => {
       <div className="flex justify-center">
         <div className="max-w-7xl mt-5 xl:mt-20 font-light text-lg lg:text-xl  xl:text-2xl  grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-5">
           <MyAccordion title={'Cпециалист по психокатализу'} id={1}>
-            <p className="p-5 bg-violet-500 text-base text-white rounded-md">
+            <p className="mt-2 p-5 bg-violet-500 text-base text-white rounded-2xl">
               Психокатализ - это эффективный метод регуляции психического
               состояния, основанный на погружении внимания в телесные ощущения.
               Этот метод помогает быстро решать, сложные проблемы. Эффект
@@ -80,14 +80,14 @@ const Hero = () => {
             </p>
           </MyAccordion>
           <MyAccordion title={'Специалист по работе с МАК'} id={2}>
-            <p className="p-5 bg-violet-500 text-base text-white rounded-xl">
+            <p className="mt-2 p-5 bg-violet-500 text-base text-white rounded-2xl">
               Метафорические ассоциативные карты (МАК)- это инструмент,
               помогающий погрузиться во внутренний мир и выразить чувства,
               страхи, ожидания, мечты, а также найти ответы на вопросы.
             </p>
           </MyAccordion>
           <MyAccordion title={'Ведущая тренингов'} id={3}>
-            <p className="p-5 bg-violet-500 text-base text-white rounded-xl">
+            <p className="mt-2 p-5 bg-violet-500 text-base text-white rounded-2xl">
               Провожу следующие тренинг марафоны:
               <br />
               <br /> 1. С благодарностью к жизни
@@ -96,7 +96,7 @@ const Hero = () => {
             </p>
           </MyAccordion>
           <MyAccordion title={'Игропрактик'} id={4}>
-            <p className="p-5 bg-violet-500 text-base text-white rounded-xl">
+            <p className="mt-2 p-5 bg-violet-500 text-base text-white rounded-2xl">
               Провожу психологические трансформационные игры: <br />
               <br /> 1. Карта внутреннего мира
               <br /> 2. Подсказки Вселенной
