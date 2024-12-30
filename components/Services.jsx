@@ -30,81 +30,49 @@ const Services = () => {
 
         <ul className="mt-5 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 px-2">
           <li className="bg-violet-500 text-white flex items-center justify-between p-5 rounded-xl">
-            <Image
-              src={img5}
-              alt="img"
-              className="size-20 opacity-70 hover:opacity-100"
-            />
+            <Image src={img5} alt="img" className="size-20" />
             <p className="w-full p-3 md:text-lg text-right">
               Психологические травмы
             </p>
           </li>
           <li className="bg-violet-500 text-white flex p-5 rounded-xl">
-            <Image
-              src={img2}
-              alt="img"
-              className="size-20 opacity-70 hover:opacity-100"
-            />
+            <Image src={img2} alt="img" className="size-20" />
             <p className="w-full p-3 md:text-lg text-right">
               Эмоциональные зависимости
             </p>
           </li>
           <li className="bg-violet-500 text-white flex p-5 rounded-xl">
-            <Image
-              src={img3}
-              alt="img"
-              className="size-20 opacity-50 hover:opacity-100"
-            />
+            <Image src={img3} alt="img" className="size-20" />
             <p className="w-full p-3 md:text-lg text-right">
               Страхи, тревоги и фобии
             </p>
           </li>
           <li className="bg-violet-500 text-white flex p-5 rounded-xl">
-            <Image
-              src={img4}
-              alt="img"
-              className="size-20 opacity-70 hover:opacity-100"
-            />
+            <Image src={img4} alt="img" className="size-20" />
             <p className="w-full p-3 md:text-lg text-right">
               Обиды и разочарования
             </p>
           </li>
           <li className="bg-violet-500 text-white flex p-5 rounded-xl">
-            <Image
-              src={img1}
-              alt="img"
-              className="size-20 opacity-70 hover:opacity-100"
-            />
+            <Image src={img1} alt="img" className="size-20" />
             <p className="w-full p-3 md:text-lg text-right">
               Психологические напряжения
             </p>
           </li>
           <li className="bg-violet-500 text-white flex p-5 rounded-xl">
-            <Image
-              src={img6}
-              alt="img"
-              className="size-20 opacity-70 hover:opacity-100"
-            />
+            <Image src={img6} alt="img" className="size-20" />
             <p className="w-full p-3 md:text-lg text-right">
               Работа с ответственностью
             </p>
           </li>
           <li className="bg-violet-500 text-white flex p-5 rounded-xl">
-            <Image
-              src={img7}
-              alt="img"
-              className="size-20 opacity-70 hover:opacity-100"
-            />
+            <Image src={img7} alt="img" className="size-20" />
             <p className="w-full p-3 md:text-lg text-right">
               Любовь и отношения
             </p>
           </li>
           <li className="bg-violet-500 text-white flex p-5 rounded-xl">
-            <Image
-              src={img8}
-              alt="img"
-              className="size-20 opacity-70 hover:opacity-100"
-            />
+            <Image src={img8} alt="img" className="size-20" />
             <p className="w-full p-3 md:text-lg text-right">
               Любовь к себе. Принятие себя.
             </p>

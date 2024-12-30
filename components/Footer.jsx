@@ -5,7 +5,7 @@ import { FaWhatsappSquare } from 'react-icons/fa'
 const Footer = () => {
   return (
     <footer className="footer footer-center bg-base-100 text-base-content rounded p-10">
-      <nav className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-4">
+      <nav className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-7 gap-4">
         <a
           href="#osebe"
           className="hover:text-indigo-600 hover:bg-gray-200 p-2 rounded-md"
@@ -29,6 +29,12 @@ const Footer = () => {
           className="hover:text-indigo-600 hover:bg-gray-200 p-2 rounded-md"
         >
           Чем погу помочь
+        </a>
+        <a
+          href="#otzyvy"
+          className="hover:text-indigo-600 hover:bg-gray-200 p-2 rounded-md"
+        >
+          Отзывы
         </a>
         <a
           href="#price"

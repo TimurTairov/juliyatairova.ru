@@ -48,6 +48,9 @@ const Navbar = () => {
                 <a href="#services">Чем погу помочь</a>
               </li>
               <li>
+                <a href="#otzyvy">Отзывы</a>
+              </li>
+              <li>
                 <a href="#price">Цены</a>
               </li>
               <li>
@@ -77,6 +80,9 @@ const Navbar = () => {
             </li>
             <li>
               <a href="#services">Чем погу помочь</a>
+            </li>
+            <li>
+              <a href="#otzyvy">Отзывы</a>
             </li>
             <li>
               <a href="#price">Цены</a>

@@ -16,7 +16,7 @@ const Hero = () => {
         alt="spiral"
         className="w-1/2 absolute left-0 top-24 md:top-20 opacity-50 z-0"
       />
-      <div className="flex mx-auto max-w-7xl flex-col md:flex-row-reverse md:justify-between z-40">
+      <div className="flex mx-auto max-w-7xl flex-col md:flex-row-reverse md:justify-between">
         <div className="flex flex-col items-center ">
           <Image
             src={foto}
