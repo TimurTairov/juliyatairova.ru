@@ -29,7 +29,7 @@ const Services = () => {
           />
         </div>
 
-        <ul className="mt-5 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 px-2">
+        {/* <ul className="mt-5 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 px-2">
           <li className="bg-violet-500 text-white flex items-center justify-between p-5 rounded-xl">
             <Image src={img5} alt="img" className="size-20" />
             <p className="w-full p-3 md:text-lg text-right">
@@ -78,7 +78,58 @@ const Services = () => {
               Любовь к себе. Принятие себя.
             </p>
           </li>
+        </ul> */}
+        <ul className="mt-5 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 px-2">
+          <li className="border-2 border-indigo-500 rounded-2xl lg:p-3 flex items-center justify-between p-5">
+            <Image src={img5} alt="img" className="size-20" />
+            <p className="w-full p-3 md:text-lg text-right">
+              Психологические травмы
+            </p>
+          </li>
+          <li className="border-2 border-indigo-500 rounded-2xl lg:p-3 flex items-center justify-between p-5">
+            <Image src={img2} alt="img" className="size-20" />
+            <p className="w-full p-3 md:text-lg text-right">
+              Эмоциональные зависимости
+            </p>
+          </li>
+          <li className="border-2 border-indigo-500 rounded-2xl lg:p-3 flex items-center justify-between p-5">
+            <Image src={img3} alt="img" className="size-20" />
+            <p className="w-full p-3 md:text-lg text-right">
+              Страхи, тревоги и фобии
+            </p>
+          </li>
+          <li className="border-2 border-indigo-500 rounded-2xl lg:p-3 flex items-center justify-between p-5">
+            <Image src={img4} alt="img" className="size-20" />
+            <p className="w-full p-3 md:text-lg text-right">
+              Обиды и разочарования
+            </p>
+          </li>
+          <li className="border-2 border-indigo-500 rounded-2xl lg:p-3 flex items-center justify-between p-5">
+            <Image src={img1} alt="img" className="size-20" />
+            <p className="w-full p-3 md:text-lg text-right">
+              Психологические напряжения
+            </p>
+          </li>
+          <li className="border-2 border-indigo-500 rounded-2xl lg:p-3 flex items-center justify-between p-5">
+            <Image src={img6} alt="img" className="size-20" />
+            <p className="w-full p-3 md:text-lg text-right">
+              Работа с ответственностью
+            </p>
+          </li>
+          <li className="border-2 border-indigo-500 rounded-2xl lg:p-3 flex items-center justify-between p-5">
+            <Image src={img7} alt="img" className="size-20" />
+            <p className="w-full p-3 md:text-lg text-right">
+              Любовь и отношения
+            </p>
+          </li>
+          <li className="border-2 border-indigo-500 rounded-2xl lg:p-3 flex items-center justify-between p-5">
+            <Image src={img8} alt="img" className="size-20" />
+            <p className="w-full p-3 md:text-lg text-right">
+              Любовь к себе. Принятие себя.
+            </p>
+          </li>
         </ul>
+
         <div className="mt-5 lg:mt-7 w-full flex justify-center ">
           <Image
             src={work}
