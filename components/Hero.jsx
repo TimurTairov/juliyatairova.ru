@@ -1,4 +1,4 @@
-import foto from '../images/myfoto.svg'
+import foto from '../images/myfoto.webp'
 import Image from 'next/image'
 import img1 from '@/images/spiral.svg'
 import { TbRosetteDiscountCheckFilled } from 'react-icons/tb'
@@ -24,7 +24,7 @@ const Hero = () => {
             className="max-w-40 md:max-w-60 lg:max-w-80 rounded-3xl shadow-lg shadow-indigo-300"
           />
           <div className="max-w-40 md:max-w-60 lg:max-w-md text-slate-600 text-xl font-light flex items-center justify-center gap-2 mt-5">
-            <h2 className="badge badge-primary p-2 md:p-3 hover:scale-150 transition-transform duration-700">
+            <h2 className="badge badge-primary p-2 md:p-3 hover:scale-150 transition-transform duration-700 text-white">
               Юлия Таирова
             </h2>
             <TbRosetteDiscountCheckFilled className="text-primary h-7 w-7" />

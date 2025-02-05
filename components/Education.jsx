@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import img1 from '@/images/vector.svg'
 import Carousel from '@/components/Carousel'
 import { TbSchool } from 'react-icons/tb'
 import { GiDiploma } from 'react-icons/gi'

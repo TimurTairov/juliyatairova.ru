@@ -1,5 +1,5 @@
 'use client'
-import Image from 'next/image'
+
 import ImageGallery from 'react-image-gallery'
 
 const Carousel = () => {
@@ -68,7 +68,7 @@ const Carousel = () => {
     <div className="bg-base-200">
       <div
         id="diplomy"
-        className="mx-auto max-w-7xl flex items-center justify-center"
+        className="max-w-3xl h-auto flex items-center justify-center"
       >
         <div className="w-full">
           <ImageGallery items={images} {...settings} />

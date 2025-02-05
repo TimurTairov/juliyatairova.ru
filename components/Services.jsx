@@ -1,14 +1,15 @@
 import Image from 'next/image'
 import { MdOutlineLiveHelp } from 'react-icons/md'
-import mainPng from '@/images/psy/7.png'
-import img1 from '@/images/psy/8.png'
-import img2 from '@/images/psy/9.png'
-import img3 from '@/images/psy/11.png'
-import img4 from '@/images/psy/13.png'
-import img5 from '@/images/psy/6.png'
-import img6 from '@/images/psy/5.png'
-import img7 from '@/images/psy/4.png'
-import img8 from '@/images/psy/15.png'
+import mainPng from '@/images/me.webp'
+import work from '@/images/work.webp'
+import img1 from '@/images/psy/8.webp'
+import img2 from '@/images/psy/9.webp'
+import img3 from '@/images/psy/11.webp'
+import img4 from '@/images/psy/13.webp'
+import img5 from '@/images/psy/6.webp'
+import img6 from '@/images/psy/5.webp'
+import img7 from '@/images/psy/4.webp'
+import img8 from '@/images/psy/15.webp'
 
 const Services = () => {
   return (
@@ -78,6 +79,13 @@ const Services = () => {
             </p>
           </li>
         </ul>
+        <div className="mt-5 lg:mt-7 w-full flex justify-center ">
+          <Image
+            src={work}
+            alt="Работа"
+            className="w-full lg:w-2/3 h-auto rounded-xl px-2"
+          />
+        </div>
       </div>
     </div>
   )

@@ -131,7 +131,7 @@ body {
 }
 
 .bg-image {
-  background: url(../images/bg.png) no-repeat center center;
+  background: url(../images/bg.webp) no-repeat center center;
   height: 100%;
   position: fixed;
   top: 0;

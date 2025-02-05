@@ -1,5 +1,3 @@
-import { TbPencilHeart } from 'react-icons/tb'
-import { BiSolidPencil } from 'react-icons/bi'
 import { LiaPrayingHandsSolid } from 'react-icons/lia'
 
 const Otzyvy = () => {
